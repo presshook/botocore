@@ -26,7 +26,7 @@ requires = [
     'jmespath>=0.7.1,<2.0.0',
     'python-dateutil>=2.1,<3.0.0',
     'urllib3>=1.25.4,<1.27 ; python_version < "3.10"',
-    'urllib3>=1.25.4,<2.1 ; python_version >= "3.10"',
+    'urllib3>=1.25.4,<3,!=2.2.0 ; python_version >= "3.10"',
 ]
 
 extras_require = {
